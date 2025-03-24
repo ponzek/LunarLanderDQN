@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karina's Final Project: Lunar Lander</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Karina's Final Project: Lunar Lander</h1>
+    <canvas id="game-canvas" width="500" height="500"></canvas>
+    <button id="ai-toggle">Toggle AI</button>
+    <p>Press 'R' to reset the game</p>
+    <div id="results">
+        <h2>Game Results</h2>
+        <p>Wins: <span id="wins">0</span> Losses: <span id="losses">0</span> Total Reward: <span id="reward">0</span></p>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+flask
+gymnasium
+numpy
+pillow
+tensorflow
+keras
